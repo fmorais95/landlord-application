@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "LandLord",
+    "packageName": "com.landlord",
+    "packageFolder": "com/landlord",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.0",
+    "jwtSecretKey": "YmIyMTc3NmZkNjBkZTBlNjcyZjI5YjliOTJmNzUxN2U4MDQ3MjYyNDNmYTU2NDM5NzdmN2ZiOTg5ZTU2NTE1NTVlOTJmZGNiNWRhNmY2NmMyOTFlNGRkMTRkYjczMDc5MjEyZjdmY2ZiN2I1Zjg5ODE0ODRiNTA3MzQ5ODBjNjk=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "fmorais95",
+  "repository-name": "landlord-application"
+}
